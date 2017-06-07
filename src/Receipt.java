@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Receipt {
+<<<<<<< HEAD
 	Scanner sc = new Scanner(System.in);
 	
 	Receipt(){
@@ -9,6 +10,10 @@ public class Receipt {
 		
 		if(choice.equalsIgnoreCase("y"))
 		{
+=======
+
+	Receipt(){
+>>>>>>> d2151392833484ec57cd5891158448c14f54768a
 		System.out.println("-------------------------------------------");
 		System.out.println("|         Java Bank ATM Receipt           |");
 		System.out.println("|         Wednesday, December 2, 2015     |");
@@ -25,6 +30,20 @@ public class Receipt {
 		System.out.println("|              Have a coffee day          |");
 		System.out.println("|                                         |");
 		System.out.println("------------------------------------------");
+<<<<<<< HEAD
 		}
 		else System.out.println("\nThank you for banking with us!\n");
 }}
+=======
+	
+		Account today = new Account();
+		//today.setDate(0); 
+		
+
+	
+		
+	}
+	
+	
+}
+>>>>>>> d2151392833484ec57cd5891158448c14f54768a
